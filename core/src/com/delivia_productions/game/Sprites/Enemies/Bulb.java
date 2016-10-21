@@ -147,7 +147,7 @@ public class Bulb extends com.delivia_productions.game.Sprites.Enemies.Enemy {
             }
 
 
-
+// I just made a change
 
             setPosition(b2body.getPosition().x - getWidth() / 2, b2body.getPosition().y - getHeight() / 2);
             setRegion(walkAnimation.getKeyFrame(stateTime, true));
