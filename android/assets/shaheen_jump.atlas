@@ -1,0 +1,12 @@
+
+shaheen_jump.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+5
+  rotate: false
+  xy: 1, 1
+  size: 220, 294
+  orig: 220, 294
+  offset: 0, 0
+  index: -1

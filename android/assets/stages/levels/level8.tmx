@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="280" height="13" tilewidth="16" tileheight="16" nextobjectid="757">
+ <tileset firstgid="1" name="tileset_gutter" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="1782" columns="33">
+  <image source="../tileset_gutter.png" width="594" height="972"/>
+ </tileset>
+ <tileset firstgid="1783" name="9" tilewidth="16" tileheight="16" spacing="1" margin="2" tilecount="1638" columns="126">
+  <image source="../9.png" width="2158" height="234"/>
+ </tileset>
+ <tileset firstgid="3421" name="drops" tilewidth="16" tileheight="16" spacing="1" margin="4" tilecount="1776" columns="37">
+  <image source="../drops.png" width="640" height="822"/>
+ </tileset>
+ <layer name="background" width="280" height="13">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="color" width="280" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt2AdTYlcYxvGLIIhgdNfeu25J+VIpW+wCAna3JJuZlC323rakfIEkHyUzSTaJu2sXUBBQ82eud3IyeyEzSXS5k/PM/OY9HPRw58J7Bo6i/PM4bIritKlVG+slalWUGOI4wjFOoPD3JmTADAsyYYUNWbAjW1hf5BDUowGNaEIzLuEyruAq3sY7eBfvJblWGRmZ9Mg9evRTm1q1sV68zPvgRy/6sJavKAPUQQxhGCO4hdu4g7v4GJ8I64vuCRaxhGWsYBWP8QRP8Qxf4Wt8g2/l/iIjk9axZfEdI0ut2lgvB/RyGBEcInq6v8SpRzjGSaLf+X8TMmCGBZmwCuuLbIJq1KAWdahHAxrRhGZcwmVcwdUk1yojI5MeuUOP3s1SqzbWi4t5Nzzogff0sR+96EM/BjCIIQxjBLdwW1hf86Ppz9dNmMUc5rGARSxhGStYxWM8wVM8k/uLjExax2znO4ZdrdpYLwF6OYgQ9k/3loQIDhFFDHEc4Rgnif5nPRMy7Op+YrH/lVlQjgpUogrVqEEt6lCPBjSiCc1JrvX/mMS9lZFJtwzToyN2tWpjvXQw34kudMMFNzzogRc++NGLPvRjAIMYEtYXDQsmMYVpzGAWc5jHAhaxhGWsYFXuL7qRe41MuuQk0aPZatXGetnmuR3sYg8BBBHCPg4QRgSHiCKGOI5wLK4v0F43oZjHJShFGcpRgUpUoRo1qEUd6pNc63+dRL/Knj376J3jyRg7/fToQLZatbFeWphvRRva0YFOdKEbLrjhQQ+88MGPXvQJ64v6BaMYwzgmMIkpTGMGs5jDPBaweE77i5FjlH0x1TmejHETo0fj2WrVxnpZZ34Dm9jCNnawiz0EEEQI+zhAGBEcIiqsL4oJ8h2KUoBCFKEYJShFGcpRgUpUodpxvvdK5uyS6hwvWUy8/xkww4JMWGGTn4u0iY/3wu9QqzbWyzXmr+MGbqIFrWhDOzrQiS50wwU3POiBV1hf5BPcxwM8xCOMYgzjmMAkpjCNGcy+wc+R0X4zpcO1fperKN/jh9zXn0t1jidj3ITp0YhDrdpYL2vMv8BLvMI6NrCJLWxjB7vYQwBBhLCPA2F9UViQ61SUPFzAReSjAIUoQjFKUIoylDvP917J/Lv8xL7yM37R2V9SnePJGDduetTjVKs21sv7zH+AD/ERruE6buAmWtCKNrSjA53oQjdcwvoit+AzfI4v8CXu4wEe4hFGMYZxTGBS7i+GiiWP3zCw5r3+XKpzPBnjJkiPhpxq1cZ6ec78r/gNv2MNL/ASr7CODWxiC9vYwS72EBDWFwUFjhxFcSIHbyEXebiAi8hHAQpRhOKc871XMmeTvzvHk3mz+QPnk2EA
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="644" x="412.5" y="197.333" width="238.167" height="26.6323"/>
+  <object id="645" x="460.5" y="125.5" width="147.5" height="32"/>
+  <object id="646" x="408.5" y="125.5" width="23.5" height="32.5"/>
+  <object id="647" x="498.5" y="121.5" width="12" height="3"/>
+  <object id="648" x="509" y="118" width="15" height="5"/>
+  <object id="649" x="517" y="115" width="21.5" height="9"/>
+  <object id="650" x="527" y="112.5" width="23.5" height="12"/>
+  <object id="653" x="550" y="106.5" width="27.5" height="23.5"/>
+  <object id="654" x="536" y="110" width="28" height="21.5"/>
+  <object id="655" x="559.5" y="103.5" width="47.5" height="42"/>
+  <object id="656" x="607" y="111.5" width="4" height="34.5"/>
+  <object id="658" x="671.5" y="64" width="15.5" height="16"/>
+  <object id="659" x="736" y="48.5" width="15.5" height="15"/>
+  <object id="660" x="839" y="166.5" width="134.5" height="42.5"/>
+  <object id="661" x="970" y="173.5" width="8" height="32.5"/>
+  <object id="662" x="831.5" y="173" width="18" height="42"/>
+  <object id="666" x="784" y="128" width="16" height="16"/>
+  <object id="667" x="1024" y="176" width="16" height="16"/>
+  <object id="668" x="1072" y="160" width="16" height="16"/>
+  <object id="669" x="1120" y="144" width="16" height="16"/>
+  <object id="670" x="1168" y="176" width="16" height="16"/>
+  <object id="672" x="1195.5" y="136.5" width="77.5" height="81.5"/>
+  <object id="673" x="1259" y="130" width="32" height="19.5"/>
+  <object id="674" x="1291.5" y="116" width="67" height="96.5"/>
+  <object id="675" x="1408" y="96" width="32" height="16"/>
+  <object id="676" x="1488" y="144" width="32" height="16"/>
+  <object id="677" x="1575" y="158" width="138.5" height="56"/>
+  <object id="678" x="1807.5" y="160" width="30.5" height="53"/>
+  <object id="679" x="1835.5" y="87" width="91.5" height="122.5"/>
+  <object id="680" x="1924" y="68.5" width="75" height="164.5"/>
+  <object id="682" x="1896.5" y="75" width="27" height="11"/>
+  <object id="689" x="2064" y="64" width="16" height="16"/>
+  <object id="690" x="2112" y="80" width="16" height="16"/>
+  <object id="691" x="2160" y="112" width="16" height="16"/>
+  <object id="692" x="2192" y="144" width="16" height="16"/>
+  <object id="693" x="2227.5" y="158.5" width="141.5" height="59.5"/>
+  <object id="696" x="4160.5" y="157" width="29" height="16"/>
+  <object id="697" x="4080" y="158.5" width="30" height="14.5"/>
+  <object id="698" x="4000.5" y="157" width="28.5" height="18"/>
+  <object id="699" x="3892" y="118" width="74" height="58"/>
+  <object id="700" x="3805" y="135.5" width="49.5" height="81"/>
+  <object id="701" x="3733.5" y="144" width="26" height="15.5"/>
+  <object id="702" x="3664.5" y="60" width="27.5" height="18"/>
+  <object id="703" x="3586" y="92.5" width="20.5" height="12"/>
+  <object id="704" x="3503.5" y="125" width="32" height="20.5"/>
+  <object id="708" x="3409.5" y="149" width="28.5" height="9"/>
+  <object id="709" x="3329.5" y="116.5" width="27" height="12"/>
+  <object id="710" x="3251.5" y="85.5" width="25.5" height="12"/>
+  <object id="711" x="3072" y="128" width="160" height="16"/>
+  <object id="713" x="3041" y="136" width="31" height="7"/>
+  <object id="714" x="2977" y="115.5" width="13" height="12"/>
+  <object id="716" x="2896.5" y="167.5" width="47" height="48.5"/>
+  <object id="718" x="2834" y="186.5" width="29.5" height="29"/>
+  <object id="720" x="2862" y="176.5" width="34" height="43"/>
+  <object id="721" x="2738" y="157" width="21" height="16.5"/>
+  <object id="722" x="2595" y="113.5" width="80" height="32"/>
+  <object id="723" x="2512.5" y="157" width="24" height="18"/>
+  <object id="724" x="2417.5" y="109" width="22.5" height="18"/>
+ </objectgroup>
+ <objectgroup name="Pipes"/>
+ <objectgroup name="Coins" offsetx="-7" offsety="5">
+  <properties>
+   <property name="quit" value=""/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Bricks"/>
+ <objectgroup name="Goombas">
+  <object id="725" x="1264" y="32" width="16" height="16"/>
+  <object id="727" x="1328" y="32" width="16" height="16"/>
+  <object id="728" x="1424" y="32" width="16" height="16"/>
+  <object id="731" x="1664" y="16" width="16" height="16"/>
+  <object id="732" x="1888" y="32" width="16" height="16"/>
+  <object id="733" x="1984" y="16"/>
+  <object id="735" x="2336" y="48" width="16" height="16"/>
+  <object id="736" x="2624" y="32" width="16" height="16"/>
+  <object id="737" x="2912" y="64" width="16" height="16"/>
+  <object id="738" x="3136" y="0" width="16" height="16"/>
+  <object id="741" x="3264" y="16" width="16" height="16"/>
+  <object id="747" x="3824" y="48" width="16" height="16"/>
+  <object id="748" x="3920" y="48" width="16" height="16"/>
+  <object id="749" x="3952" y="0" width="16" height="16"/>
+  <object id="751" x="4112" y="128"/>
+  <object id="754" x="4208" y="16" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Turtles"/>
+ <objectgroup name="Finish_line">
+  <object id="694" x="4213.33" y="72" height="46.3333"/>
+ </objectgroup>
+ <objectgroup name="Story_line"/>
+ <objectgroup name="kill_lines">
+  <object id="683" x="1999.5" y="160" width="160" height="58.5"/>
+  <object id="684" x="2097" y="129" width="48" height="32.5"/>
+  <object id="685" x="2048" y="142.5" width="46" height="23.5"/>
+  <object id="687" x="2155" y="176.5" width="16" height="32"/>
+  <object id="688" x="2153" y="192" width="70.5" height="32.5"/>
+ </objectgroup>
+ <objectgroup name="Bosses"/>
+ <objectgroup name="Map_line"/>
+ <layer name="df" width="280" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt2NlOE1Ecx/GDLVho2Wx9B3ZQkLYsRr1w1xcQ8ElUXB5CL7wRCu5bZGlL2TSyeOMDIIs7iYCP4FdpbDtOy7SdZgb8/5JPMkzPHKbJ9JdzRqnCJOxVKoIoJhDDJKYwjRlvgf6xRCLZ81mmP1awijV8xCd8xhd8lX6R6GSgSqlBhKqsvhN75Eq5UldxDf3lVt+NfeLwKeVEMUqwHy6Uogxun9V3KLFj5umVBSxKv/zJPTplAIMISb/8TQ39UYs61KMBjWhCM1qkXyQ62aBXNrH1n/bLWKVS4whXbv89R6fMYwGLBvpl1qXUa7xxFfY+JZLdmAPVSnnhq7b6TqzJEr3yAcvxfvlBp2xgE1vxfgmWpr/+GJ8dx4kMY4wk5FBqCMOO/OaRSOwUP70SQNDifnlf9u+5paJtZiVCh0QxUZk4V8S6bR8c8fVbdQWdCy98OFiRfr4YnTKJKUzn2S9v6ZU5zEu/WBLtvnhI9sYp0fvtZMptxt1BD73Siz7cNXjtbs0K328Vaxm+Zzt94kcAQXTE+6Wd/vMjkNSDnRx3oRtHdfoxm3yjV75jXfrFkmj3xe+kX1Ji5LeTnBjjJjGFacxg1sR+yXfdsVyUoJ3XyNza9ypGc4k+6UEv+nA53i+v6I8RjCb1SJjjCKKYQCyPjnE5lSpFmTP3OfZKzFyzGo12X/xT+iUlTtb3xSix2XtavY74nZMepU7hNM7gLM7hPC7goie1Y/TmyBTtexWj6adPruMGbuIWDrmVOoxWtLkTY/0cBxBEBzrRhW53+vkl1mSnzspmXyxJJNt9kxnJtRNyndfM9zQhnqshDOM+HuAZffEcL/AyqTtGOB7FGMYRRgRRt/7ayeg5iTnJ5plIty+WZE62+6Z8k/zbL+Q6t1Adpk0D66hGNKEZLZ7EZ60ct+EI2uFHAEGP/trJ6DlJ7jHyzOmNSbcvlmSOXfdNZqaQPfOQrniEx3iCp56drxkzMEYikUhqypWqRR3q0WDz936/AOrGurw=
+  </data>
+ </layer>
+ <layer name="df" width="280" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1EdOw0AARuHhDM4CCP0OiVf0djGqFLgHvd2D3u5BbxJvERSwPCFeIBTlPemTLHk88uoPwczMzMzM2qGFJIRFLGEZK1hNGu9rPK9hPYnfYWaW1wa7sYktbGMHu9jDPg5wiCP3xcwKdsxunOAUZzjHBS5xhWvc4NZ9MbOC3bEb93jAI57wjBe84g3v+HBfzKxg3aUQetCLMvrQjwEMYgjDGCn995+aWbs1ym6MYRwTmMQUpjGDWcxh3n0xsz+s0tVgZpbX10ZU6yoR1cyZ7PnUnTGzkL8bv21KbF/SyLdm1nnF9qLZnsS2pdkZt8as8/q+A2ldK7vS6rZk73dnfvYJsl8/yA==
+  </data>
+ </layer>
+</map>

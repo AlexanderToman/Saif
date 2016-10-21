@@ -1,0 +1,12 @@
+
+deads.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+deadShaheen
+  rotate: false
+  xy: 1, 1
+  size: 206, 216
+  orig: 206, 216
+  offset: 0, 0
+  index: -1

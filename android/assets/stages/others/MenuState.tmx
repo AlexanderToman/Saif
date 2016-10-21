@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="26" height="13" tilewidth="16" tileheight="16" nextobjectid="610">
+ <tileset firstgid="1" name="tileset_gutter" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="1782" columns="33">
+  <image source="tileset_gutter.png" width="594" height="972"/>
+ </tileset>
+ <tileset firstgid="1783" name="tags" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="338" columns="26">
+  <image source="tags.png" width="447" height="235"/>
+ </tileset>
+ <tileset firstgid="2121" name="Menu_State" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="351" columns="27">
+  <image source="Menu_State.png" width="460" height="235"/>
+ </tileset>
+ <layer name="Background" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eJwNwwOsFQAAAMAXlm23bLtl27Zt2/2fbdtu2XbLtlu2cbdd2XCBQDnLW8GKVrKyVaxqNatbw5rWsrZ1rGs969vAhjaysU1sajNb2NJWtraNbW1nezvY0U52totd7WZ3e9jTXva2j33tZ38HONDBDnGowxzuCEcaZLCjHO0YxzrO8U5wopOc7BSnOs3pznCms5zjXOc53wUudJGLXeJSl7ncFa50latd41rXud4NbnSTm93iVre53R3udJe73eNe97nfAx70kIc94lGPedwTnvSUpz3jWc953gte9JKXveJVr3ndG970lre9413ved8HPvSRj33iU5/53Be+9JWvfeNb3/neD370k5/94le/+d0f/vSXv/3jX/8ZCB8IhDCkoQxtGMMazvBGMKKRjGwUoxrN6MYwprGMbRzjGs/4JjChiUxsEpOazOSmMKWpTG0a05rO9GYwo5nMbBazms3s5jCnucxtHvOaz/wWsKCFLGwRi1rM4pawpKUsbRnLWs7yVrCilaxsFatazerWsKa1rWNd61nfBja0kY1tYlOb2dwWtrSVrW1jW9vZ3g52tJOd7WI3u9vDnvayt33saz/7O8CBDnKwQxzqMIc7wpEGGewoRzvGsY53ghOd5GSnONVpTneGM53lbOc413nOd4ELXeRil7jUZS53hf8BoY2w+Q==
+  </data>
+ </layer>
+ <layer name="graphic" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQAkAAAVIAAE=
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="602" x="48" y="160.5" width="320" height="15.5"/>
+ </objectgroup>
+ <objectgroup name="Pipes"/>
+ <objectgroup name="Coins" offsetx="-7" offsety="5">
+  <properties>
+   <property name="quit" value=""/>
+  </properties>
+  <object id="606" x="322.333" y="64" width="47.6667" height="16">
+   <properties>
+    <property name="quit" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Bricks"/>
+ <objectgroup name="Goombas"/>
+ <objectgroup name="Turtles"/>
+ <objectgroup name="Finish_line">
+  <object id="609" x="62.6667" y="77" width="39.3333"/>
+ </objectgroup>
+ <objectgroup name="Story_line">
+  <object id="605" x="192" y="74" width="46"/>
+ </objectgroup>
+ <objectgroup name="kill_lines"/>
+ <objectgroup name="Bosses"/>
+ <objectgroup name="Map_line"/>
+ <layer name="graphics" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztzzcSggAUhOEHDffRG5lzpjNhznZGMCt6H/U8/heQBpyxYGe+aot9T8SP24Q0kTAiiCKGOBJIIoU0MsgihzwKKKKEMirQte87Vboa6migCQMttNFBFz30McAQI4wxwRQzzB12FnRLrLDGBluYsLDDHgccccIZF1xxg407Hg47fv47T0Xk5ZG34u6WgCoSVL356xc7H7ATMnk=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,33 @@
+
+myfire.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+4fire
+  rotate: false
+  xy: 1, 1
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+1fire
+  rotate: false
+  xy: 12, 1
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+2fire
+  rotate: false
+  xy: 22, 1
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+3fire
+  rotate: false
+  xy: 32, 1
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
