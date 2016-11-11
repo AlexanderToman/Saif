@@ -367,6 +367,9 @@ public class PlayState implements Screen {
                 level_stage_music = MarioBros.manager.get("audio/music/level_music_1.ogg", Music.class);
                 level_stage_music.stop();
                 MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+                MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
+
+
 
             }
 
@@ -383,6 +386,9 @@ public class PlayState implements Screen {
                 level_stage_music = MarioBros.manager.get("audio/music/level_music_2.ogg", Music.class);
                 level_stage_music.stop();
                 MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+                MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
+
+
 
             }
 
@@ -398,6 +404,9 @@ public class PlayState implements Screen {
                 level_stage_music = MarioBros.manager.get("audio/music/level_music_2.ogg", Music.class);
                 level_stage_music.stop();
                 MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+                MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
+
+
 
             }
 
