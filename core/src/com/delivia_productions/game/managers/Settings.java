@@ -203,7 +203,7 @@ public class Settings implements Screen {
                 if (text.equals("on")) {
                     file.writeString("off", false);
                     music_icon.addAction(alpha(1));
-                    MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+
                     MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
 
 
@@ -307,31 +307,12 @@ public class Settings implements Screen {
 
     private void tRm() {
 
-        Random rasdad = new Random();
-        int random_number = rasdad.nextInt(2) + 1;
-
-
-        if (random_number == 2) {
-            FileHandle sacadscasZZ = Gdx.files.local("audio/MMMRM.txt");
-            sacadscasZZ.writeString("2", false);
 
             mymusic = MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class);
             mymusic.setVolume(0.3f);
             mymusic.play();
             mymusic.setLooping(true);
-            MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
 
-        }
-        if (random_number == 1) {
-            FileHandle sacadscasZZ = Gdx.files.local("audio/MMMRM.txt");
-            sacadscasZZ.writeString("1", false);
-
-            mymusic = MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class);
-            mymusic.setVolume(0.7f);
-            mymusic.play();
-            mymusic.setLooping(true);
-            MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
-        }
 
     }
 

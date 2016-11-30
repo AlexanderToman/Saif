@@ -129,7 +129,7 @@ public class PlayState implements Screen {
 
 
     public Music nature_music;
-    public Music Main_Menu_music;
+
     private Music level_stage_music;
     public Music drops;
     private static final float PPM = 32;
@@ -140,7 +140,6 @@ public class PlayState implements Screen {
     public PlayState(MarioBros game) {
 
 
-        MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
         //personal
 
         viewport = new FitViewport(MarioBros.V_WIDTH, MarioBros.V_HEIGHT, new OrthographicCamera());
@@ -336,7 +335,6 @@ public class PlayState implements Screen {
 
 
 
-                MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
                 MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
 
 
@@ -366,7 +364,7 @@ public class PlayState implements Screen {
 
                 level_stage_music = MarioBros.manager.get("audio/music/level_music_1.ogg", Music.class);
                 level_stage_music.stop();
-                MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+
                 MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
 
 
@@ -385,7 +383,7 @@ public class PlayState implements Screen {
                 nature_music.stop();
                 level_stage_music = MarioBros.manager.get("audio/music/level_music_2.ogg", Music.class);
                 level_stage_music.stop();
-                MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+
                 MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
 
 
@@ -403,7 +401,7 @@ public class PlayState implements Screen {
                 level_stage_music.stop();
                 level_stage_music = MarioBros.manager.get("audio/music/level_music_2.ogg", Music.class);
                 level_stage_music.stop();
-                MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
+
                 MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
 
 
@@ -502,21 +500,6 @@ public class PlayState implements Screen {
     @Override
     public void show() {
 
-    }
-    private void tRm() {
-
-        Random rasdad = new Random();
-        int random_number = rasdad.nextInt(2) + 1;
-
-
-        if (random_number == 2) {
-            FileHandle sacadscasZZ = Gdx.files.local("audio/MMMRM.txt");
-            sacadscasZZ.writeString("2", false);
-        }
-        if (random_number == 1) {
-            FileHandle sacadscasZZ = Gdx.files.local("audio/MMMRM.txt");
-            sacadscasZZ.writeString("1", false);
-        }
 
     }
 
@@ -527,7 +510,7 @@ public class PlayState implements Screen {
         if (controller.isBackPressed()) {
 
             game.setScreen(new MainMenuScreen(game));
-            tRm();
+
 
 
 

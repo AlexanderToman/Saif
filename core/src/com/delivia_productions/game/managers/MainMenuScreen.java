@@ -109,25 +109,11 @@ public class MainMenuScreen implements Screen {
         if (textz.equals("on")) {
 
 
-            FileHandle sacadscasZZ = Gdx.files.local("audio/MMMRM.txt");
-            String bz = sacadscasZZ.readString();
-            if (bz.equals("1")) {
-                mymusic = MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class);
-                mymusic.setVolume(0.7f);
-                mymusic.play();
-                mymusic.setLooping(true);
-                MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class).stop();
-            }
-
-
-            if (bz.equals("2")) {
-
                 mymusic = MarioBros.manager.get("audio/music/main_menu_music_2.ogg", Music.class);
                 mymusic.setVolume(0.3f);
                 mymusic.play();
                 mymusic.setLooping(true);
-                MarioBros.manager.get("audio/music/main_menu_music.ogg", Music.class).stop();
-            }
+
 
 
             MarioBros.manager.get("audio/music/nature.ogg", Music.class).stop();

@@ -70,7 +70,6 @@ public class MarioBros extends Game {
 
         manager = new AssetManager();
         manager.load("audio/music/ending_music.ogg", Music.class);
-        manager.load("audio/music/main_menu_music.ogg", Music.class);
         manager.load("audio/music/main_menu_music_2.ogg", Music.class);
 
         manager.load("audio/music/nature.ogg", Music.class);
