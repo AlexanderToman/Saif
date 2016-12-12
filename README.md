@@ -1,6 +1,6 @@
 # Saif
 
-<b>Game application. Constructed in Java with the help of LibGdx libraries.</b>
+Game application. Constructed in Java with the help of LibGdx libraries.
 
 
 
